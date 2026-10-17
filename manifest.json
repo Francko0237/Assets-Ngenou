@@ -1,6 +1,6 @@
 {
-  "version": "1.1.0",
-  "updated_at": "2026-10-17T06:30:00Z",
+  "version": "1.2.0",
+  "updated_at": "2026-10-17T06:45:00Z",
   "extensions": [
     {
       "id": "algo_interpreter",
@@ -13,6 +13,7 @@
       "couleur": "#2ECC71",
       "categorie": "Outils de développement",
       "niveaux": ["secondaire", "superieur"],
+      "type": "script_engine",
       "download_url": "https://raw.githubusercontent.com/Francko0237/Assets-Ngenou/main/extensions/algo_interpreter/README.md",
       "files": [
         "lexer.dart",
@@ -33,10 +34,29 @@
       "couleur": "#E67E22",
       "categorie": "Sciences & Maths",
       "niveaux": ["primaire", "secondaire"],
+      "type": "math_tool",
       "download_url": "https://raw.githubusercontent.com/Francko0237/Assets-Ngenou/main/extensions/math_fractions/README.md",
       "files": [
         "fractions_calculator.dart",
         "fractions_painter.dart"
+      ]
+    },
+    {
+      "id": "math_nombres_relatifs",
+      "nom": "Droite Graduée & Nombres Relatifs",
+      "description": "Visualisation interactive des nombres relatifs sur axe et thermomètre : comparaison, repérage et calculs guidés pas-à-pas.",
+      "version": "1.0.0",
+      "taille": "38 Ko",
+      "auteur": "Yamga Daniel",
+      "icone": "scale",
+      "couleur": "#3498DB",
+      "categorie": "Sciences & Maths",
+      "niveaux": ["secondaire"],
+      "type": "math_tool",
+      "download_url": "https://raw.githubusercontent.com/Francko0237/Assets-Ngenou/main/extensions/math_nombres_relatifs/README.md",
+      "files": [
+        "relatifs_calculator.dart",
+        "droite_graduee_painter.dart"
       ]
     }
   ]
