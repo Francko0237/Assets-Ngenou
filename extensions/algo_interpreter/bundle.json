@@ -1,0 +1,22 @@
+{
+  "id": "algo_interpreter",
+  "title": "Interpréteur Algorithmique & Console",
+  "author": "Yamga Daniel",
+  "version": "1.2.0",
+  "accentColor": "#2ECC71",
+  "initialState": {
+    "code": "// Tapez votre algorithme Ngenou ici\nALGORITHME Salutation\nVARIABLES\n  nom: CHAINE\nDEBUT\n  nom <- \"Ngenou\"\n  AFFICHER \"Bonjour \", nom\nFIN"
+  },
+  "tabs": [
+    {
+      "title": "Console & Exécution",
+      "icon": "terminal",
+      "blocks": [
+        {
+          "type": "algo_console_runner",
+          "codeKey": "code"
+        }
+      ]
+    }
+  ]
+}

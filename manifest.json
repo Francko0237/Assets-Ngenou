@@ -1,6 +1,6 @@
 {
-  "version": "1.2.0",
-  "updated_at": "2026-10-17T06:45:00Z",
+  "version": "1.3.0",
+  "updated_at": "2026-10-17T07:00:00Z",
   "extensions": [
     {
       "id": "algo_interpreter",
@@ -14,8 +14,10 @@
       "categorie": "Outils de développement",
       "niveaux": ["secondaire", "superieur"],
       "type": "script_engine",
+      "entrypoint": "bundle.json",
       "download_url": "https://raw.githubusercontent.com/Francko0237/Assets-Ngenou/main/extensions/algo_interpreter/README.md",
       "files": [
+        "bundle.json",
         "lexer.dart",
         "parser.dart",
         "interpreter.dart",
@@ -35,8 +37,10 @@
       "categorie": "Sciences & Maths",
       "niveaux": ["primaire", "secondaire"],
       "type": "math_tool",
+      "entrypoint": "bundle.json",
       "download_url": "https://raw.githubusercontent.com/Francko0237/Assets-Ngenou/main/extensions/math_fractions/README.md",
       "files": [
+        "bundle.json",
         "fractions_calculator.dart",
         "fractions_painter.dart"
       ]
@@ -53,8 +57,10 @@
       "categorie": "Sciences & Maths",
       "niveaux": ["secondaire"],
       "type": "math_tool",
+      "entrypoint": "bundle.json",
       "download_url": "https://raw.githubusercontent.com/Francko0237/Assets-Ngenou/main/extensions/math_nombres_relatifs/README.md",
       "files": [
+        "bundle.json",
         "relatifs_calculator.dart",
         "droite_graduee_painter.dart"
       ]

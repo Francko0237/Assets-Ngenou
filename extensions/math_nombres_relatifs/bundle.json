@@ -1,0 +1,144 @@
+{
+  "id": "math_nombres_relatifs",
+  "title": "Droite Graduée & Nombres Relatifs",
+  "author": "Yamga Daniel",
+  "version": "1.0.0",
+  "accentColor": "#3498DB",
+  "initialState": {
+    "viewMode": "axe",
+    "pointA": -3,
+    "pointB": 4,
+    "opTerm1": -2,
+    "opTerm2": 5,
+    "operateur": "+"
+  },
+  "tabs": [
+    {
+      "title": "Repérer & Comparer",
+      "icon": "linear_scale",
+      "blocks": [
+        {
+          "type": "segmented",
+          "stateKey": "viewMode",
+          "options": [
+            {
+              "value": "axe",
+              "label": "Droite graduée (Axe)",
+              "icon": "timeline"
+            },
+            {
+              "value": "thermo",
+              "label": "Thermomètre (°C)",
+              "icon": "thermostat"
+            }
+          ]
+        },
+        {
+          "type": "number_line",
+          "visibleWhen": {
+            "key": "viewMode",
+            "equals": "axe"
+          },
+          "min": -10,
+          "max": 10,
+          "points": [
+            {
+              "name": "Point A",
+              "stateKey": "pointA",
+              "color": "#00D2D3"
+            },
+            {
+              "name": "Point B",
+              "stateKey": "pointB",
+              "color": "#FF9F43"
+            }
+          ]
+        },
+        {
+          "type": "thermometer",
+          "visibleWhen": {
+            "key": "viewMode",
+            "equals": "thermo"
+          },
+          "min": -10,
+          "max": 10,
+          "points": [
+            {
+              "name": "Point A",
+              "stateKey": "pointA",
+              "color": "#00D2D3"
+            },
+            {
+              "name": "Point B",
+              "stateKey": "pointB",
+              "color": "#FF9F43"
+            }
+          ]
+        },
+        {
+          "type": "slider",
+          "stateKey": "pointA",
+          "label": "Position du Point A",
+          "min": -10,
+          "max": 10,
+          "color": "#00D2D3"
+        },
+        {
+          "type": "slider",
+          "stateKey": "pointB",
+          "label": "Position du Point B",
+          "min": -10,
+          "max": 10,
+          "color": "#FF9F43"
+        },
+        {
+          "type": "relatifs_comparison_card",
+          "keyA": "pointA",
+          "keyB": "pointB"
+        }
+      ]
+    },
+    {
+      "title": "Calculer pas-à-pas",
+      "icon": "calculate",
+      "blocks": [
+        {
+          "type": "number_line_vector",
+          "startKey": "opTerm1",
+          "secondKey": "opTerm2",
+          "operatorKey": "operateur",
+          "min": -10,
+          "max": 10
+        },
+        {
+          "type": "slider",
+          "stateKey": "opTerm1",
+          "label": "Premier terme (Départ)",
+          "min": -10,
+          "max": 10,
+          "color": "#3498DB"
+        },
+        {
+          "type": "button_group",
+          "stateKey": "operateur",
+          "label": "Opération",
+          "options": ["+", "-"]
+        },
+        {
+          "type": "slider",
+          "stateKey": "opTerm2",
+          "label": "Deuxième terme (Déplacement)",
+          "min": -10,
+          "max": 10,
+          "color": "#9B59B6"
+        },
+        {
+          "type": "relatifs_operation_card",
+          "term1Key": "opTerm1",
+          "term2Key": "opTerm2",
+          "opKey": "operateur"
+        }
+      ]
+    }
+  ]
+}

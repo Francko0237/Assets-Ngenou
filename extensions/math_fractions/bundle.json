@@ -1,0 +1,92 @@
+{
+  "id": "math_fractions_visualizer",
+  "title": "Atelier Visuel des Fractions",
+  "author": "Yamga Daniel",
+  "version": "1.0.0",
+  "accentColor": "#E67E22",
+  "initialState": {
+    "num1": 3,
+    "den1": 4,
+    "num2": 1,
+    "den2": 2,
+    "shape": "disk"
+  },
+  "tabs": [
+    {
+      "title": "Explorer",
+      "icon": "pie_chart",
+      "blocks": [
+        {
+          "type": "segmented",
+          "stateKey": "shape",
+          "options": [
+            {
+              "value": "disk",
+              "label": "Disque (Camembert)",
+              "icon": "circle"
+            },
+            {
+              "value": "bar",
+              "label": "Réglette (Barre)",
+              "icon": "view_week"
+            }
+          ]
+        },
+        {
+          "type": "fraction_shape",
+          "numKey": "num1",
+          "denKey": "den1",
+          "shapeKey": "shape",
+          "color": "#E67E22"
+        },
+        {
+          "type": "stepper",
+          "stateKey": "num1",
+          "label": "Numérateur (parts coloriées)",
+          "min": 0,
+          "max": 20
+        },
+        {
+          "type": "stepper",
+          "stateKey": "den1",
+          "label": "Dénominateur (découpage total)",
+          "min": 1,
+          "max": 20
+        },
+        {
+          "type": "fraction_stats_card",
+          "numKey": "num1",
+          "denKey": "den1"
+        }
+      ]
+    },
+    {
+      "title": "Comparer",
+      "icon": "compare_arrows",
+      "blocks": [
+        {
+          "type": "fraction_compare_view",
+          "num1Key": "num1",
+          "den1Key": "den1",
+          "num2Key": "num2",
+          "den2Key": "den2",
+          "shapeKey": "shape"
+        },
+        {
+          "type": "stepper",
+          "stateKey": "num2",
+          "label": "Numérateur Fraction B",
+          "min": 0,
+          "max": 20
+        },
+        {
+          "type": "stepper",
+          "stateKey": "den2",
+          "label": "Dénominateur Fraction B",
+          "min": 1,
+          "max": 20
+        }
+      ]
+    }
+  ]
+}
