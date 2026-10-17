@@ -1,0 +1,68 @@
+{
+  "version": "1.0.0",
+  "updated_at": "2026-10-17T06:00:00Z",
+  "extensions": [
+    {
+      "id": "algo_interpreter",
+      "nom": "Interpréteur Algorithmique & Console",
+      "description": "Moteur d'exécution de pseudo-code complet avec analyse syntaxique, débogueur pas-à-pas et console interactive.",
+      "version": "1.2.0",
+      "taille": "48 Ko",
+      "auteur": "Ngenou Core Team",
+      "icone": "code",
+      "couleur": "#2ECC71",
+      "categorie": "Outils de développement",
+      "niveaux": ["secondaire", "superieur"],
+      "download_url": "https://raw.githubusercontent.com/Francko0237/Assets-Ngenou/main/extensions/algo_interpreter/README.md",
+      "files": [
+        "lexer.dart",
+        "parser.dart",
+        "interpreter.dart",
+        "debugger.dart",
+        "syntax_highlighter.dart"
+      ]
+    },
+    {
+      "id": "math_geometry_kit",
+      "nom": "Kit Géométrie & Tracé Graphique",
+      "description": "Boîte à outils de géométrie interactive : calculs de surfaces, théorèmes (Pythagore, Thalès) et visualiseur de fonctions.",
+      "version": "1.0.0",
+      "taille": "85 Ko",
+      "auteur": "Ngenou Éducation",
+      "icone": "calculator",
+      "couleur": "#E67E22",
+      "categorie": "Sciences & Maths",
+      "niveaux": ["primaire", "secondaire"],
+      "download_url": "https://raw.githubusercontent.com/Francko0237/Assets-Ngenou/main/manifest.json",
+      "files": []
+    },
+    {
+      "id": "science_lab_sim",
+      "nom": "Laboratoire Virtuel de Sciences",
+      "description": "Simulateur d'expériences de physique-chimie : réactions moléculaires, circuit électrique et tableau périodique augmenté.",
+      "version": "1.1.0",
+      "taille": "120 Ko",
+      "auteur": "Ngenou Éducation",
+      "icone": "flask",
+      "couleur": "#1ABC9C",
+      "categorie": "Sciences & Maths",
+      "niveaux": ["secondaire", "superieur"],
+      "download_url": "https://raw.githubusercontent.com/Francko0237/Assets-Ngenou/main/manifest.json",
+      "files": []
+    },
+    {
+      "id": "lang_audio_pronounce",
+      "nom": "Atelier de Prononciation Linguistique",
+      "description": "Guide phonétique interactif avec reconnaissance vocale et synthétiseur pour le français, l'anglais et l'espagnol.",
+      "version": "1.0.0",
+      "taille": "95 Ko",
+      "auteur": "Ngenou Éducation",
+      "icone": "language",
+      "couleur": "#9B59B6",
+      "categorie": "Langues",
+      "niveaux": ["primaire", "secondaire", "superieur"],
+      "download_url": "https://raw.githubusercontent.com/Francko0237/Assets-Ngenou/main/manifest.json",
+      "files": []
+    }
+  ]
+}
