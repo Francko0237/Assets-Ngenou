@@ -4,6 +4,8 @@
   "author": "Yamga Daniel",
   "version": "1.2.0",
   "accentColor": "#2ECC71",
+  "engine": "native_page",
+  "nativePage": "terminal",
   "initialState": {
     "code": "// Tapez votre algorithme Ngenou ici\nALGORITHME Salutation\nVARIABLES\n  nom: CHAINE\nDEBUT\n  nom <- \"Ngenou\"\n  AFFICHER \"Bonjour \", nom\nFIN"
   },

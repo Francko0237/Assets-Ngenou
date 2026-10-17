@@ -4,6 +4,8 @@
   "author": "Yamga Daniel",
   "version": "1.0.0",
   "accentColor": "#3498DB",
+  "engine": "native_page",
+  "nativePage": "nombres_relatifs",
   "initialState": {
     "viewMode": "axe",
     "pointA": -3,

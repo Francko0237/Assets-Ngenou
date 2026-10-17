@@ -1,0 +1,14 @@
+{
+  "id": "math_conversion_unites",
+  "nom": "Tableau de Conversion & Décimaux",
+  "description": "Tableau dynamique interactif de conversion d'unités (longueurs, masses, capacités, aires) avec décomposition décimale en puissances de 10 et défis d'entraînement.",
+  "version": "1.0.0",
+  "taille": "42 Ko",
+  "auteur": "Yamga Daniel",
+  "icone": "table_chart",
+  "couleur": "#00B894",
+  "categorie": "Sciences & Maths",
+  "niveaux": ["primaire", "secondaire"],
+  "type": "math_tool",
+  "entrypoint": "bundle.json"
+}

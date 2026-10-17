@@ -1,0 +1,11 @@
+{
+  "id": "math_conversion_unites",
+  "title": "Tableau de Conversion & Décimaux",
+  "author": "Yamga Daniel",
+  "version": "1.0.0",
+  "accentColor": "#00B894",
+  "engine": "native_page",
+  "nativePage": "conversion_unites",
+  "initialState": {},
+  "tabs": []
+}

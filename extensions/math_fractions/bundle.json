@@ -4,6 +4,8 @@
   "author": "Yamga Daniel",
   "version": "1.0.0",
   "accentColor": "#E67E22",
+  "engine": "native_page",
+  "nativePage": "fractions_visualizer",
   "initialState": {
     "num1": 3,
     "den1": 4,
