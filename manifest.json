@@ -1,6 +1,6 @@
 {
-  "version": "1.0.0",
-  "updated_at": "2026-10-17T06:20:00Z",
+  "version": "1.1.0",
+  "updated_at": "2026-10-17T06:30:00Z",
   "extensions": [
     {
       "id": "algo_interpreter",
@@ -20,6 +20,23 @@
         "interpreter.dart",
         "debugger.dart",
         "syntax_highlighter.dart"
+      ]
+    },
+    {
+      "id": "math_fractions_visualizer",
+      "nom": "Atelier Visuel des Fractions",
+      "description": "Manipulation visuelle des fractions en disques et réglettes : fractions équivalentes, simplification et pourcentages.",
+      "version": "1.0.0",
+      "taille": "35 Ko",
+      "auteur": "Yamga Daniel",
+      "icone": "calculator",
+      "couleur": "#E67E22",
+      "categorie": "Sciences & Maths",
+      "niveaux": ["primaire", "secondaire"],
+      "download_url": "https://raw.githubusercontent.com/Francko0237/Assets-Ngenou/main/extensions/math_fractions/README.md",
+      "files": [
+        "fractions_calculator.dart",
+        "fractions_painter.dart"
       ]
     }
   ]
