@@ -12,7 +12,10 @@
       "icone": "code",
       "couleur": "#2ECC71",
       "categorie": "Outils de développement",
-      "niveaux": ["secondaire", "superieur"],
+      "niveaux": [
+        "secondaire",
+        "superieur"
+      ],
       "type": "script_engine",
       "entrypoint": "bundle.json",
       "download_url": "https://raw.githubusercontent.com/Francko0237/Assets-Ngenou/main/extensions/algo_interpreter/README.md",
@@ -23,7 +26,8 @@
         "interpreter.dart",
         "debugger.dart",
         "syntax_highlighter.dart"
-      ]
+      ],
+      "ai_prompt": "Ce cours intègre l'outil Interpréteur Algorithmique. Pour chaque concept, inclus dans le texte des exemples de code simples en pseudo-code délimités par des blocs de code avec chaque ligne commentée par // pour guider l'apprenant dans sa pratique."
     },
     {
       "id": "math_fractions_visualizer",
@@ -35,7 +39,10 @@
       "icone": "calculator",
       "couleur": "#E67E22",
       "categorie": "Sciences & Maths",
-      "niveaux": ["primaire", "secondaire"],
+      "niveaux": [
+        "primaire",
+        "secondaire"
+      ],
       "type": "math_tool",
       "entrypoint": "bundle.json",
       "download_url": "https://raw.githubusercontent.com/Francko0237/Assets-Ngenou/main/extensions/math_fractions/README.md",
@@ -43,7 +50,8 @@
         "bundle.json",
         "fractions_calculator.dart",
         "fractions_painter.dart"
-      ]
+      ],
+      "ai_prompt": "Ce cours intègre l'outil Atelier Visuel des Fractions. Dans les leçons, décompose les calculs étape par étape avec des fractions (ex: a/b + c/d = e/f) et fais référence aux disques (camembert) ou réglettes pour illustrer la comparaison et la simplification."
     },
     {
       "id": "math_nombres_relatifs",
@@ -55,7 +63,9 @@
       "icone": "scale",
       "couleur": "#3498DB",
       "categorie": "Sciences & Maths",
-      "niveaux": ["secondaire"],
+      "niveaux": [
+        "secondaire"
+      ],
       "type": "math_tool",
       "entrypoint": "bundle.json",
       "download_url": "https://raw.githubusercontent.com/Francko0237/Assets-Ngenou/main/extensions/math_nombres_relatifs/README.md",
@@ -63,7 +73,8 @@
         "bundle.json",
         "relatifs_calculator.dart",
         "droite_graduee_painter.dart"
-      ]
+      ],
+      "ai_prompt": "Ce cours intègre l'outil Droite Graduée et Nombres Relatifs. Pour chaque règle de calcul (signes, additions, soustractions), illustre le déplacement sur la droite graduée ou le thermomètre étape par étape."
     },
     {
       "id": "math_conversion_unites",
@@ -75,14 +86,18 @@
       "icone": "table_chart",
       "couleur": "#00B894",
       "categorie": "Sciences & Maths",
-      "niveaux": ["primaire", "secondaire"],
+      "niveaux": [
+        "primaire",
+        "secondaire"
+      ],
       "type": "math_tool",
       "entrypoint": "bundle.json",
       "download_url": "https://raw.githubusercontent.com/Francko0237/Assets-Ngenou/main/extensions/math_conversion_unites/README.md",
       "files": [
         "bundle.json",
         "conversion_calculator.dart"
-      ]
+      ],
+      "ai_prompt": "Ce cours intègre l'outil Tableau Dynamique de Conversion d'unités. Pour chaque exemple, montre la décomposition pas à pas dans les colonnes du tableau et l'écriture décimale correspondante."
     }
   ]
 }
